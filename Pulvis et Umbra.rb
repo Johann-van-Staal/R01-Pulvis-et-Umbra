@@ -18,8 +18,7 @@ define :groove? do (takt >= 8) && !breakdown? && (takt < 112) end
 define :voll? do ((takt >= 16) && (takt < 64)) || ((takt >= 80) && (takt < 112)) end
 define :finale? do takt >= schluss - 8 end
 define :fx_pfad do |name|
-  "/Users/hansradtke/Library/Mobile Documents/com~apple~CloudDocs/" \
-    "SonicPi-Repository/SonicPi-Repository/WE05_The_Return/" + name + ".wav"
+  "... insert local path name here ..." + name + ".wav"
 end
 ["effect_gregorian_chant", "effect_rain", "effect_craw",
  "welcome_home", "the_mourning_is_over", "amen",
